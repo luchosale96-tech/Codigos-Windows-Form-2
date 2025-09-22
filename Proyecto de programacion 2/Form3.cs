@@ -21,5 +21,27 @@ namespace Proyecto_de_programacion_2
         {
             this.Close();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("NÚMERO: 381-353-4506 | INSTAGRAM: luciano.sale_ | MAIL: lucianosale@gmail.com" );
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            MenuRepuestos menuRepuestos = new MenuRepuestos();
+            this.Hide();
+            menuRepuestos.ShowDialog();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
